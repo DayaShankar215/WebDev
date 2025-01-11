@@ -1,0 +1,60 @@
+.Container {
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: red;
+  padding: 50px;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-style: Bold;
+}
+.Logo {
+  margin-top: 62px;
+  padding-left: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header h2 {
+  margin-top: 8px;
+  margin-left: 100px;
+  padding-left: 5px;
+  font-size: 35px;
+  color: darkblue;
+  text-shadow: 60px;
+  font-weight: bold;
+}
+
+.id {
+  margin: 50px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.pwd {
+  margin: 50px;
+  border-radius: 50px;
+  text-align: center;
+  text-shadow: green;
+}
+
+.btn {
+  border: 3px;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn:hover {
+  border: 2;
+  border-color: #fff;
+}
