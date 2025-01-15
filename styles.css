@@ -1,14 +1,17 @@
 .Container {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   background-color: aliceblue;
   border-style: solid;
   border-radius: 50px;
   border-color: red;
-  padding: 50px;
-  margin: 100px;
+  padding: 5px;
+  margin: auto;
   justify-content: center;
   align-items: center;
+  justify-self: center;
+  text-align: center;
+
 }
 
 .header {
@@ -17,8 +20,8 @@
   font-style: Bold;
 }
 .Logo {
-  margin-top: 62px;
-  padding-left: 10px;
+  margin-top: 6px;
+  padding-left: 20px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -44,17 +47,18 @@
   margin: 50px;
   border-radius: 50px;
   text-align: center;
-  text-shadow: green;
 }
 
-.btn {
-  border: 3px;
-  margin: 50px;
-  justify-content: center;
-  text-align: center;
+.btn{
+border-radius: 2px;
+font-size: 20px;
 }
+
+  
 
 .btn:hover {
-  border: 2;
+  background: rgb(127, 139, 0);
+  zoom: 85px;
   border-color: #fff;
 }
+
