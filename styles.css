@@ -11,7 +11,6 @@
   align-items: center;
   justify-self: center;
   text-align: center;
-
 }
 
 .header {
@@ -49,16 +48,16 @@
   text-align: center;
 }
 
-.btn{
-border-radius: 2px;
-font-size: 20px;
+.btn {
+  border-radius: 2px;
+  font:bold;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
 }
-
-  
 
 .btn:hover {
-  background: rgb(127, 139, 0);
+  background: blue;
   zoom: 85px;
-  border-color: #fff;
+  border-color: skyblue;
+  transform: scale(1.05);
 }
-
