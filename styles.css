@@ -1,15 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Container {
-  width: 400px;
-  height: 400px;
+  height: 50vh;
+  display: flex;
+  flex-direction: auto;
   background-color: aliceblue;
   border-style: solid;
   border-radius: 50px;
   border-color: red;
-  padding: 5px;
-  margin: auto;
   justify-content: center;
   align-items: center;
-  justify-self: center;
   text-align: center;
 }
 
@@ -50,7 +56,7 @@
 
 .btn {
   border-radius: 2px;
-  font:bold;
+  font: bold;
   font-size: 16px;
   transition: background-color 0.3s, transform 0.2s;
 }
@@ -61,3 +67,4 @@
   border-color: skyblue;
   transform: scale(1.05);
 }
+
